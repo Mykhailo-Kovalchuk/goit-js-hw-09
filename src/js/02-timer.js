@@ -94,7 +94,9 @@ hoursElement.textContent = formattedHours;
 minutesElement.textContent = formattedMinutes;
 secondsElement.textContent = formattedSeconds;
 
-}, 1000)
+}, 0);
+
+// return { days, hours, minutes, seconds }
 };
 
 btnStart.addEventListener('click', convertMs);
